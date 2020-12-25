@@ -1,0 +1,22 @@
+@media (min-width: 960px){ 
+    .container{
+        width: 100%;
+        max-width: 940px;
+        margin: 0px auto;
+   }
+
+   .background-image-box{
+       width: 100%;
+       max-width: 1440px;
+       height: 700px;
+   }
+
+   .section_partner__lis{
+       justify-content: space-between;
+   }
+
+   .section_partner-item{
+       width: 220px;
+       padding: 0;
+   }
+   }

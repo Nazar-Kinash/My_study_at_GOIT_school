@@ -1,0 +1,18 @@
+@media (min-width: 992px){ 
+    
+   .background-image-box{
+       width: 100%;
+       max-width: 1440px;
+       height: 700px;
+   }
+
+
+   .section_partner__lis{
+       justify-content: space-between;
+   }
+
+   
+   .item-text{
+    padding: 0;    
+    } 
+   }

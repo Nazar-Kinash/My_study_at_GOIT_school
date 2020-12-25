@@ -1,0 +1,83 @@
+.section-servise__lict{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-servise__item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 384px;
+}
+.section-servise__item::before{
+    content: "";
+    display: block;
+    margin-right: 30px;
+    width: 72px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+    .section-servise__item--ALARM::before{
+        background-image: url(../img/icon/ALARM.png);
+    }
+    .section-servise__item--LINE_GRAPH::before{
+        background-image: url(../img/icon/LINE_GRAPH.png);
+    }
+    .section-servise__item--COMPUTER_OK::before{
+        background-image: url(../img/icon/COMPUTER_OK.png);
+    }
+    .section-servise__item--BOOK::before{
+        background-image: url(../img/icon/BOOK.png);
+    }
+    .section-servise__item--HOME::before{
+        background-image: url(../img/icon/HOME.png);
+    }
+    .section-servise__item--IMAGE::before{
+        background-image: url(../img/icon/IMAGE.png);
+    }
+    
+.servise-list__heading{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+.servise-list__text{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Roboto';
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .section-servise__item--ALARM::before{
+        background-image: url(../img/icon/ALARM@2x.png);
+    }
+    
+    .section-servise__item--LINE_GRAPH::before{
+        background-image: url(../img/icon/LINE_GRAPH@2x.png);
+    }
+    
+    .section-servise__item--COMPUTER_OK::before{
+        background-image: url(../img/icon/COMPUTER_OK@2x.png);
+    }
+    
+    .section-servise__item--BOOK::before{
+        background-image: url(../img/icon/BOOK@2x.png);
+    }
+    
+    .section-servise__item--HOME::before{
+        background-image: url(../img/icon/HOME@2x.png);
+    }
+    
+    .section-servise__item--IMAGE::before{
+        background-image: url(../img/icon/IMAGE@2x.png);
+    }
+}

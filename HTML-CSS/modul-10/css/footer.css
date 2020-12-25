@@ -1,0 +1,81 @@
+.footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #e7e7e7 ;
+    
+}
+.text-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+    .footer__text{
+        margin: 0;
+        font-size: 14px;
+        color: #333333;
+        font-family: "Montserrat";
+        font-weight: 400;
+        text-align: center;
+    }
+    .footer__link{
+        padding: 3px;
+        font-size: 14px;
+        color: #333333;
+        font-family: "Montserrat";
+        font-weight: 400;
+        text-align: center;
+    }
+    .footer__link:hover{
+        text-decoration: none;
+        color: #ef8a8a;
+        -webkit-transition: 0.2s linear;
+        -o-transition: 0.2s linear;
+        transition: 0.2s linear;
+    }
+
+.input-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+    .footer__input{
+        padding-left: 10px;
+        width: 230px;
+        border: 1px solid #e7e7e7;
+        border-right: none;
+        font-size: 15px;
+        line-height: 24px;
+        font-family: 'Montserrat';
+        font-style: italic;
+        color: #e7e7e7;
+        outline: none;
+    }
+    .footer__button-subscribe{
+        width: 150px;
+        height: 40px;
+        border: none;
+        text-transform: uppercase;
+        font-family: "Montserrat";
+        font-style: bold;
+        color: #ffffff;
+        background-color: #95e1d3;
+        outline: none;
+        cursor: pointer;
+    }

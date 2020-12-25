@@ -1,0 +1,14 @@
+@media (min-width:320px){ 
+    .background-image-box{
+         height: 540px;
+    }
+    
+    .header{
+        margin-bottom: 24px;
+    }
+
+    .heading-box{
+        max-width: 320px;
+    }
+
+}

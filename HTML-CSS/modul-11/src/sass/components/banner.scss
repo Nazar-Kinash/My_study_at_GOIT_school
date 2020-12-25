@@ -1,0 +1,121 @@
+.banner{
+    width: 100%;
+    background-image: url('../images/dackground-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .bg-gradient{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+        background-image: linear-gradient($gradient-clor-1, $gradient-clor-2);
+    }
+}
+
+.page-header{
+    padding: 20px 0;
+}
+
+.page-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.header-page__logo{
+    font-size: $logo-font-size;
+    color: $banner-text-colot;
+    font-family: $main-font;
+    font-weight: 700;
+
+    &__logo:hover{
+        color: $banner-text-colot;
+    }
+}
+
+
+.header-navigation__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 57%;
+}
+.header-navigation__link{
+    padding: 10px;
+    font-size: $main-font-size;
+    color: $banner-text-colot;
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+
+    &:hover{
+        color: $main-style-coor-2;
+        box-shadow: 0 12px 0 -10px $main-style-coor-2;
+        transition-duration: .2s;
+    }
+    &:hover .header-navigation__link--icon{
+        fill: $main-style-coor-2;
+    }
+    
+     
+}  
+.header-navigation__link--icon{
+    width: 24px;
+    height: 24px;
+    fill: $banner-text-colot;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-header__subtitle{
+    margin: 0 auto 20px;
+    font-size: $header-subtitle-font-size;
+    color: $banner-text-colot;
+    font-family: $subtitles-font;
+    font-weight: 400;
+    text-align: center;
+}
+.page-header__title{
+    padding: 0 200px;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+    font-size: $header-title-font-size;
+    line-height: 140px;
+    color: $banner-text-colot;
+    font-family: $main-font;
+    font-weight: 700;
+    text-align: center;
+}
+.page-header__button{ 
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: $main-font-size;
+    text-transform: uppercase;
+    color: $banner-text-colot;
+    font-family: $main-font;
+    font-weight: 700;   
+    border: 3px solid $banner-text-colot;
+
+    &:hover{
+        transition: all 0.2s;
+        color: $main-style-coor-1;
+        border-color: $main-style-coor-1;
+    }   
+}
+
+
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .banner{
+        background-image: url(../images/dackground-image@2x.png);
+    }
+}

@@ -1,0 +1,4 @@
+npm install @reduxjs/toolkit
+configureStore()
+createAction()
+createReducer()

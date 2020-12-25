@@ -1,0 +1,54 @@
+@media (min-width: 768px){
+  
+
+    .header{
+        max-width: 80%;
+        flex-direction: row;
+        margin-bottom: 145px;
+    }
+
+   .header__nav{
+       display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .header__nav__list{
+        margin: 0;
+    }
+
+    .header__logo{
+        display: flex;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .background-image-box{
+        height: 700px;
+    }
+
+    .heading-box{
+        max-width: 530px;
+    }
+
+    .heading_page{
+        font-size: 52px;
+        line-height: 1.2;
+        margin-bottom: 28px;
+    }
+
+    .heading-text{
+        font-size: 24px;
+        margin-bottom: 34px;
+    }
+
+    .background-image-box a{
+        padding: 10px 20px;
+    }
+
+
+   
+}

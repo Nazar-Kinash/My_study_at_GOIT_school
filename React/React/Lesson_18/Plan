@@ -1,0 +1,4 @@
+1) create login , regist, logout (redux logic)
+2) Add persist
+3) Private route and redirect
+4) get request when user refresh page

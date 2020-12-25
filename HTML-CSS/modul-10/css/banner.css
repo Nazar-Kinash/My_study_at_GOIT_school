@@ -1,0 +1,140 @@
+.banner{
+    width: 100%;
+    background-image: url('../img/dackground-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-gradient{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 1000px;
+    background-image: -o-linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.9)), to(rgba(252, 227, 138, 0.9)));
+    background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+}
+.page-header{
+    padding: 20px 0;
+}
+.title-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+    .header-page__logo{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    }
+    .header-page__logo:hover{
+    color: #ffffff;
+    }
+.page-navigation{
+    display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    margin-bottom: 140px;
+}
+    .header-navigation__list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 57%; 
+        list-style: none;
+    }
+    .header-navigation__link{
+        padding: 10px;
+        font-size: 14px;
+        color: #ffffff;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+    }
+    .header-navigation__link:hover{
+        color: #fce38a;
+        -webkit-box-shadow: 0 12px 0 -10px #fce38a;
+                box-shadow: 0 12px 0 -10px #fce38a;
+        -webkit-transition-duration: .2s;
+             -o-transition-duration: .2s;
+                transition-duration: .2s;
+    }
+        .header-navigation__link--icon{
+            width: 24px;
+            height: 24px;
+            fill: #ffffff;
+    }
+        .header-navigation__link:hover .header-navigation__link--icon{
+            fill: #fce38a;
+        }
+    .page-header__subtitle{
+        margin: 0 auto 40px;
+        font-size: 72px;
+        color: #ffffff;
+        font-family: 'Kaushan-Script';
+        font-weight: 400;
+        text-align: center;
+    }
+    .page-header__title{
+        padding: 0 200px;
+        margin-bottom: 90px;
+        text-transform: uppercase;
+        font-size: 150px;
+        line-height: 140px;
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+    }
+    .page-header__button{ 
+        display: inline-block;
+        padding: 6px 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-weight: 700;   
+        border: 3px solid #ffffff;
+    }
+    .page-header__button:hover{
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #f38181;
+        border-color: #f38181;
+    }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .banner{
+        background-image: url(../img/dackground-image@2x.png);
+    }
+}

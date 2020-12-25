@@ -1,0 +1,13 @@
+@import './normalize.scss';
+@import './fonts.scss';
+@import './variables';
+@import './mixins.scss';
+@import './base';
+
+
+/*           COMPONENTS           */
+
+@import './components/banner';
+@import './components/section-servise';
+@import './components/team';
+@import './components/footer.scss';

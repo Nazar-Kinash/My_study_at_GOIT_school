@@ -1,0 +1,30 @@
+@mixin bg-image($path: '', $size: contain, $repeat: no-repeat, $pos: center) {
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $pos;
+}
+
+@mixin bg-servise-image($size: contain, $repeat: no-repeat, $pos: center) {
+  background-size: $size;
+  background-repeat: $repeat;
+  background-position: $pos;
+}
+
+@mixin pseudo($display: inline-block, $content: '') {
+  display: $display;
+  content: $content;
+}
+
+
+@mixin generate-pseudo-icons($baseclass, $list, $path, $ext) {
+  @each $icon in $list {
+    .#{$baseclass}#{$icon}::before {
+      background-image: url(#{$path}#{$icon}.#{$ext});
+    }
+  }
+}
+
+$icons: ALARM, LINE_GRAPH, COMPUTER_OK, BOOK, HOME, IMAGE;
+
+
+// @include generate-pseudo-icons('services__icon--', $icons, '../images/features-icons/icon-', 'svg');

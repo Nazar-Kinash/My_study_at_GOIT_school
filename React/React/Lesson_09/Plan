@@ -1,0 +1,20 @@
+1) Навіщо взагалі роутинг
+2) Підключення роутинга в проект
+3) Базові компоненти для роботи роутинга (Switch, Route, NavLink, Link, BrowserRouter, Redirect)
+4) Налаштування меню і зміна адресної страчки в браузері
+5) Налаштування переключання сторінок (exact)
+6) Route component route render
+7) Route props
+8) Nested router
+9) Dynamic router
+
+////////////////////////////////////////////////////////////////////////////////
+0) Repos nested route
+1) work with search Link
+2) to like object
+3) back to main with history.push (query-string)
+4) Private Route and Public Route (Component and if)
+5) Containers and Components
+6) Single file for routes
+7) Address like object and menu from array
+8) Code Splitting and Suspense

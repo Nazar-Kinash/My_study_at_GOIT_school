@@ -1,0 +1,29 @@
+1) Typescript
+2) Create react project with Typescript (npx create-react-app my-app --template typescript)
+3) TS Basic (.tsx, .ts)
+imp exp typing
+Simple types 
+boolean
+number
+string
+few types
+Complex
+Array
+Tuple
+Enum
+any
+void
+object
+
+Interfaces
+Optional Properties in Interfaces
+Readonly properties in Interfaces
+Extending Interfaces
+Methods in interfaces
+
+Functions
+Typing the function
+void
+Optional and Default Parameters
+
+Generics

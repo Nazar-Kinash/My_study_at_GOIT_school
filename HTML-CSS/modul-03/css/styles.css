@@ -1,0 +1,110 @@
+.contaner{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container__header{
+   padding: 72px 0px 100px;
+}
+
+.container__header__menu{
+    margin: auto;
+    text-align: center;  
+}
+
+.container__header__menu__ul{
+    font-size: 0;
+}
+
+.container__header__menu__ul li{
+     display: inline-block;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 14px;
+     text-transform: uppercase;
+     padding: 10px;
+     
+}
+
+.container__header__menu__ul li:not(:last-child){
+    margin-right: 60px;
+}
+
+.container__header__menu__ul li a{
+    display: block;
+    text-decoration: none;
+    color:#626262;     
+}
+
+.container__header__menu__ul li a:hover,
+.container__header__menu__ul li a:focus{
+    color: #03a9f4;
+}
+
+.contaner__main__section{
+    font-size: 0;
+    text-align: center;
+    width: 100%;
+    color:#626262;
+    padding-bottom: 70px;
+    
+}
+
+.contaner__main__section__article{
+    margin-right: 60px;
+    margin-bottom: 130px;
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+
+.contaner__main__section__article:nth-child(2n){
+    margin: 0;
+}
+
+.contaner__main__section__article img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.contaner__main__section__article__signature-picture{
+    margin-bottom: 28px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contaner__main__section__article__article-name{
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contaner__main__section__article__article-text{
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.contaner__main__button-LoadMore {
+    width: 165px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    border-radius: 0;
+    border: 1px solid #626262;
+    color:#626262;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contaner__main__button-LoadMore:hover,
+.contaner__main__button-LoadMore:focus {
+	background:  #03a9f4;
+	color:  #ffffff;
+    border-color: #03a9f4;
+}
