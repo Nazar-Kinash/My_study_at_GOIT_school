@@ -1,0 +1,30 @@
+.timer {
+    display: flex;
+    justify-content: space-between;
+
+    width: 400px;
+}
+
+.value {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    background: #ffffff;
+}
+
+.label {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(18, 145, 24);
+    color: #ffffff;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
+}
