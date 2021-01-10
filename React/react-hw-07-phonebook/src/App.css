@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	margin: 0 auto;
+	width: 560px;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo-enter {
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+}
+
+.logo-enter-active {
+	opacity: 1;
+	animation: logo 500ms ease-in;
+}
+
+@keyframes logo {
+	from {
+		opacity: 1;
+		transform: translateX(-100%);
+		/* left: 0; */
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Filter animation */
+
+.error-enter-active,
+.filter-enter-active {
+	animation: el-enter 250ms ease-in;
+	opacity: 1;
+}
+.error-exit-active,
+.filter-exit-active {
+	animation: el-exite 250ms ease-out;
+	opacity: 0;
+}
+
+@keyframes el-enter {
+	from {
+		transform-origin: top center;
+		transform: scale(0.35, 0.35);
+	}
+	to {
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes el-exite {
+	from {
+		transform: scale(1, 1);
+		opacity: 1;
+	}
+	to {
+		transform-origin: top center;
+		transform: scale(0.35, 0.35);
+		opacity: 0;
+	}
+}
+
+/* Contacts list animation */
+
+.list__item-enter-active {
+	animation: add-contact 250ms ease-in;
+}
+
+.list__item-exit-active {
+	animation: remove-cotact 250ms ease-out;
+}
+
+@keyframes add-contact {
+	from {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes remove-cotact {
+	from {
+		opacity: 1;
+	}
+	to {
+		transform: scaleX(0.1);
+		transform-origin: right;
+		opacity: 0;
+	}
+}
+
+/* Alert animation */
+
+.alert-enter {
+	opacity: 0;
+}
+
+.alert-enter-active {
+	animation: alert-enter 250ms ease-in;
+	opacity: 1;
+}
+
+.alert-exit-active {
+	animation: alert-exite 250ms ease-out;
+	opacity: 0;
+}
+
+@keyframes alert-enter {
+	0% {
+		top: 250px;
+		right: 745px;
+		transform: scale(0, 0);
+	}
+	50% {
+		top: 10px;
+		left: 47%;
+		transform: scale(1, 1);
+		transform-origin: center;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: center;
+	}
+}

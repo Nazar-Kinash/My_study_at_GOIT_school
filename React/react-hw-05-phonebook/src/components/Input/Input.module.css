@@ -1,0 +1,29 @@
+.input-wrapper {
+  width: 100%;
+  margin-top: 16px;
+  padding-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Input {
+  width: 500px;
+  text-align: center;
+  text-transform: capitalize;
+  border-style: none;
+  margin: 4px auto;
+  padding: 12px;
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+}
+.Input:active,
+.Input:focus {
+  border-color: #03059b;
+  outline: none;
+}
+
+.Label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 15px;
+}

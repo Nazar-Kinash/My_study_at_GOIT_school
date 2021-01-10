@@ -1,0 +1,15 @@
+.Button {
+  width: 528px;
+  margin: 16px auto;
+  padding: 14px;
+  background-color: #03059b;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.Button:active,
+.Button:focus {
+  outline: none;
+}

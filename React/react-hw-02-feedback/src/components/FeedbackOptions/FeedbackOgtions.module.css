@@ -1,0 +1,13 @@
+.Button {
+  width: 70px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.Button:focus {
+  outline: none;
+}
+.Button:active {
+  color: #ffffff;
+  background-color: rgb(13, 23, 163);
+}

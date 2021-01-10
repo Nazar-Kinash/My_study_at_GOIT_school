@@ -1,0 +1,18 @@
+.transaction-history {
+  text-align: center;
+  width: 840px;
+  margin: 5px auto;
+  border: 1px solid #c0c0c0;
+  box-shadow: 0 2px 5px;
+}
+.Thead th {
+  padding: 15px;
+  background-color: rgb(14, 158, 184);
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Tbody td {
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: rgb(209, 207, 207);
+}

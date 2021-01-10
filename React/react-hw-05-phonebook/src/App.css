@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0 auto;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
